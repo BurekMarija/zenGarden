@@ -95,6 +95,14 @@ body{
     border-top: 1px solid goldenrod;
 }
 
+.explanation, .participation, .benefits, .requirements, .summary, .preamble{
+    max-width: 1000px;
+    position: relative;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    
+}
 
 
 .participation{
@@ -129,4 +137,22 @@ footer a{
 footer a:hover{
     cursor: pointer;
     font-weight:bold;
+}
+
+@media(max-width:600px){
+    .sidebar{
+        position:static;
+        margin: 0;
+        padding: 0;
+        font: inherit;
+        background-image: none;
+        border-radius:5px;
+        width: 100%;
+        margin-top: 30px;
+
+    }
+    .page-wrapper{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
