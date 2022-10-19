@@ -1,0 +1,132 @@
+body{
+    background-color: black ;
+    color: white;
+    position: relative;
+    z-index: -2;
+    
+}
+
+.page-wrapper{
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+
+}
+
+.banner{
+    background-image:url("header.jpg") ;
+    background-size: contain;
+    text-align: center;
+    margin-left: -100px;
+    margin-top: -50px;
+    height: 150px;
+    margin-bottom: 50px;
+    margin-right: -50px;
+}
+
+.banner h1{
+    padding-top: 35px;
+}
+.intro{
+    padding-top: 50px;
+   
+}
+.summary, .preamble{
+    margin-top: 30px;
+    
+}
+
+
+.sidebar{
+    background-image: url("label.png");
+    background-size: cover;
+    background-position-x: right ;
+    background-repeat: no-repeat;
+    background-color: rgb(0, 0, 0);
+    width: 140px;
+    border: 2px solid gold ;
+    position:absolute;
+    left: 5px;
+    top: 200px;
+    margin-left: -170px;
+    font-size:x-small;
+    opacity:0.7;
+    transition: all, 3s;
+    padding: 5px;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    z-index: 100;
+    padding-top:70px;
+    padding-right: 50px;
+    padding-left: 30px;
+    padding-bottom: 70px;
+    
+}
+
+
+.sidebar:hover{
+    color: darkcyan;
+    width: 300px;
+    opacity:1;
+    font-size: 16px;
+    margin-left: 0;
+    
+}
+
+.skriveno{
+    position:fixed;
+    background-image: url("flek.png");
+    background-size: cover;
+    width:250px;
+    height: 200px;
+    opacity:0.5;
+    top:400px;
+    left:200px;
+    z-index: 5;
+    
+}
+
+.sidebar a{
+    color: gold;
+}
+
+.explanation, .participation, .benefits, .requirements{
+    margin-top: 40px;
+    border-top: 1px solid goldenrod;
+}
+
+
+
+.participation{
+    position: relative;
+    background-color:rgb(0, 0, 0);
+    z-index: 10;
+
+}
+
+a{ color: gold;}
+
+
+footer{
+    padding: 5px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: goldenrod;
+    border: 1px solid black;
+    color: black;
+    position: fixed;
+    left:0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 15;
+}
+
+footer a{
+    color: black;
+    transition: all, 1s;
+}
+footer a:hover{
+    cursor: pointer;
+    font-weight:bold;
+}
